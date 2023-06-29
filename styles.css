@@ -3,16 +3,56 @@
 .container {
     width: 100vw;
     height: 100vh;
-    display: flex;
-    margin: none;
+   
 }
 
 .framemetaverso {
-    width: 69vw;
-    height: 99vh;
+    width: 100vw;
+    height: 100vh;
+    position:absolute;
+}
+
+.jitsi {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    justify-content: flex-end;
+    align-items: flex-end;
 }
 
 .framejitsi {
-    width: 30vw;
-    height: 99vh;
+    width: 25vw;
+    height: 35vh;
+    position: absolute;
+    border-radius: 10px;
+    margin: 10px;
+    
+}
+
+button {
+    position: absolute;
+    border: 0;
+    /*background-color: rgb(221, 221, 221);*/
+    background-color: black;
+    border-radius: 5px;
+    
+}
+
+.botao {
+    margin: 15px;
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    padding: 3px;
+    
+    transition-duration: 0.4s;
+}
+
+.botao:hover {
+    background-color: rgb(47, 0, 255);
+}
+
+img {
+    width: 20px;
+    height: 20px;
 }
