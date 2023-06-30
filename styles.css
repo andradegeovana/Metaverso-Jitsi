@@ -28,6 +28,7 @@
 
 .smallscreenButton {
     z-index: 50;
+    visibility: collapse;
 }
 
 .fullscreenButton {

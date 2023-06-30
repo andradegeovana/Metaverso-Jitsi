@@ -8,7 +8,9 @@ function fullScreen() {
     div.style.height = "99vh";
     jitsi.style.width = "90vw";
     jitsi.style.height = "99vh";
+    botaoFS.style.visibility = "collapse";
     botaoFS.style.zIndex = "50";
+    botaoSS.style.visibility = "visible";
     botaoSS.style.zIndex = "100";
   }
 
@@ -24,6 +26,8 @@ function smallScreen() {
   jitsi.style.height = "35vh";
   div.style.justifyContent = "flex-end";
   div.style.alignItems = "flex-end";
+  botaoFS.style.visibility = "visible";
   botaoFS.style.zIndex = "100";
+  botaoSS.style.visibility = "collapse";
   botaoSS.style.zIndex = "50";
 }
