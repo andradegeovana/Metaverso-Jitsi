@@ -14,13 +14,18 @@
             <iframe class="framemetaverso" src="http://192.168.1.43:9684/?q=t9xxaicl19#pw=3yo9riHfDudxeJGjuncx6A" scrolling="no"></iframe>
         </div>
         <div class="jitsi">
-            <iframe id="framejitsi" class="framejitsi" src="https://jitsi.unifil.tech/nossojitsi"></iframe>
-            <div class="botao">
-                <script src="telaCheia.js"></script>
-                <button class="fullscreenButton" onclick="fullScreen()">
-                    <i class='bx bx-fullscreen'></i>
-                </button>
-            </div>  
+            <div id="divframejitsi" class="framejitsi">
+                <iframe id="framejitsi" class="framejitsi" src="https://jitsi.unifil.tech/nossojitsi"></iframe>  
+                <div class="botao">
+                    <script src="telaCheia.js"></script>
+                    <button id="fullscreenButton" class="fullscreenButton" onclick="fullScreen()">
+                        <i class='bx bx-fullscreen'></i>
+                    </button>
+                    <button id="smallscreenButton" class="smallcreenButton" onclick="smallScreen()">
+                        <i class='bx'></i>
+                    </button>
+                </div>
+            </div>
         </div>
     </div>
 </body>
